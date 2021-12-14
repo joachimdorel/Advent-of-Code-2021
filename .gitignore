@@ -1,3 +1,6 @@
+node_modules
+package-lock.json
+
 2_1/package-lock.json
 2_2/package-lock.json
 
