@@ -134,15 +134,6 @@ class Bingo {
     }
   }
 
-  log() {
-    this.content.forEach((grid) => {
-      console.log(grid);
-      grid.content.forEach((line) => {
-        console.log(line);
-      })
-    });
-  }
-
   play(draw: Array<number>): Result {
     let gridFinishedID = null;
     let lastDraw: number;
